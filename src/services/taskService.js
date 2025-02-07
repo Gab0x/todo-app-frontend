@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = `${import.meta.env.VITE_BACKEND_URL}/api/auth/login`;
+const API_URL = `${import.meta.env.VITE_BACKEND_URL}/api/tasks`;
 
 // Obtener tareas del usuario
 export const getTasks = async (token) => {
